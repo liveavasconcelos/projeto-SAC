@@ -1,0 +1,38 @@
+# Ambiente virtual e configurações locais.
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários do Python.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Arquivos temporários do Jupyter.
+.ipynb_checkpoints/
+
+# Configuração local da vaga, que pode conter caminhos pessoais.
+config/vaga.json
+
+# Currículos: não publicar documentos pessoais no repositório.
+data/curriculos/*
+!data/curriculos/.gitkeep
+
+# Outras pastas locais usadas nos testes com currículos.
+data/teste_*/
+
+# Resultados gerados, que podem conter dados dos candidatos.
+outputs/relatorios/*
+!outputs/relatorios/.gitkeep
+
+outputs/graficos/*
+!outputs/graficos/.gitkeep
+
+# Configurações particulares do editor.
+.vscode/
+
+# Arquivos temporários do Windows.
+Thumbs.db
+Desktop.ini

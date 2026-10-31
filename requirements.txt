@@ -1,0 +1,12 @@
+# Ambiente Jupyter para executar o notebook pelo navegador.
+notebook>=7.3,<8
+# Kernel Python usado pelo Jupyter e pelo notebook do VS Code.
+ipykernel>=6.29.5,<8
+# Tabelas de ranking, detalhes, frequências e erros.
+pandas>=2.2.3,<3
+# Extração de texto de PDFs locais, sem OCR.
+PyMuPDF>=1.24.14,<2
+# Três gráficos de aderência e frequências.
+matplotlib>=3.9.2,<4
+# Exportação local do relatório em PDF.
+reportlab>=4.2.5,<5
